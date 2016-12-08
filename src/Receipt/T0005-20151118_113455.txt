@@ -1,0 +1,12 @@
+#T0005
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Quarter Pounder with Cheese                        3     8.50        25.50        
+2.  Grilled Onion Cheddar Burger                       4     6.30        25.20        
+
+Sub Total : RM 50.70
+Discount : RM 5.07
+Gst : RM 3.04
+Grand Total : RM 42.59
+Change : RM 7.41

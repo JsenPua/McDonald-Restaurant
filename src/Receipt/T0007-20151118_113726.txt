@@ -1,0 +1,12 @@
+#T0007
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Big Mac                                            3     7.89        23.67        
+2.  BBQ Ranch Burger                                   4     8.30        33.20        
+
+Sub Total : RM 56.87
+Discount : RM 15.69
+Gst : RM 3.41
+Grand Total : RM 37.77
+Change : RM 12.23

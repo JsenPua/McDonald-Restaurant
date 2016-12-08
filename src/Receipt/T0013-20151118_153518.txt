@@ -1,0 +1,13 @@
+#T0013
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Big Mac                                            4     7.89        31.56        
+2.  Bacon Clubhouse Burger                             4     9.00        36.00        
+3.  BBQ Ranch Burger                                   5     8.30        41.50        
+
+Sub Total : RM 109.06
+Discount : RM 0.00
+Gst : RM 6.54
+Grand Total : RM 102.52
+Change : RM 57.48

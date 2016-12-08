@@ -1,0 +1,11 @@
+#T0013
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Grilled Onion Cheddar Burger                       2     6.30        12.60        
+
+Sub Total : RM 12.60
+Discount : RM 0.00
+Gst : RM 0.76
+Grand Total : RM 11.84
+Change : RM 8.16

@@ -1,0 +1,12 @@
+#T0011
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Quarter Pounder with Cheese                        9     8.50        76.50        
+2.  Bacon Clubhouse Burger                             2     9.00        18.00        
+
+Sub Total : RM 94.50
+Discount : RM 0.00
+Gst : RM 5.67
+Grand Total : RM 88.83
+Change : RM 1.17

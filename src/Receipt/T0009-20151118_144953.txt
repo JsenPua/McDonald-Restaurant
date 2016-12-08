@@ -1,0 +1,13 @@
+#T0009
+===========
+
+No. Item Name                                          Qty   Price each  Total        
+1.  Big Mac                                            3     7.89        23.67        
+2.  Quarter Pounder with Cheese                        2     8.50        17.00        
+3.  Bacon Clubhouse Burger                             5     9.00        45.00        
+
+Sub Total : RM 85.67
+Discount : RM 18.57
+Gst : RM 5.14
+Grand Total : RM 61.96
+Change : RM 8.04
