@@ -1,5 +1,5 @@
 package ui;
-/*Author: huiwen*/
+
 import control.MaintainItemControl;
 import control.MaintainCategoryControl;
 import domain.Item;
