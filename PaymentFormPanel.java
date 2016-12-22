@@ -1,5 +1,5 @@
 /*
- Author Soo Xingliang
+ Author Pua Jen Sen
  */
 package ui;
 
