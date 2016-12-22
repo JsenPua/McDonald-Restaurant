@@ -1,6 +1,4 @@
-/*
- Author Swati
- */
+
 package ui;
 
 import java.util.Random;
