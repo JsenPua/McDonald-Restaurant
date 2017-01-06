@@ -1,6 +1,3 @@
-/*
- Author Phang Chun Wai
- */
 package ui;
 
 import domain.Staff;
@@ -56,7 +53,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel5 = new javax.swing.JPanel();
@@ -77,6 +74,7 @@ public class Main extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(221, 16, 33));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Staff ID:");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -212,19 +210,19 @@ public class Main extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jbtMemberMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtMemberMenuActionPerformed
+    private void jbtMemberMenuActionPerformed(java.awt.event.ActionEvent evt) {                                              
         // TODO add your handling code here:
         dispose();
         new MembershipMenu().setVisible(true);
-    }//GEN-LAST:event_jbtMemberMenuActionPerformed
+    }                                             
 
-    private void jbtOrderMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtOrderMenuActionPerformed
+    private void jbtOrderMenuActionPerformed(java.awt.event.ActionEvent evt) {                                             
         itemFrame = new MaintaiItemFrame(stf);
-    }//GEN-LAST:event_jbtOrderMenuActionPerformed
+    }                                            
 
-    private void jbtStaffingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtStaffingActionPerformed
+    private void jbtStaffingActionPerformed(java.awt.event.ActionEvent evt) {                                            
         try {
             // TODO add your handling code here:
             dispose();
@@ -233,24 +231,24 @@ public class Main extends javax.swing.JFrame {
         } catch (Exception ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }//GEN-LAST:event_jbtStaffingActionPerformed
+    }                                           
 
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {                                     
         // TODO add your handling code here:
         dispose();
         new Login().setVisible(true);
 
-    }//GEN-LAST:event_jLabel1MouseClicked
+    }                                    
 
-    private void jbtRedeemMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtRedeemMenuActionPerformed
+    private void jbtRedeemMenuActionPerformed(java.awt.event.ActionEvent evt) {                                              
         // TODO add your handling code here:
         dispose();
         new RedeemFrame().setVisible(true);
-    }//GEN-LAST:event_jbtRedeemMenuActionPerformed
+    }                                             
 
-    private void jbtPaymentDetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtPaymentDetActionPerformed
+    private void jbtPaymentDetActionPerformed(java.awt.event.ActionEvent evt) {                                              
         paymentFrame = new PaymentFormPanel(stf);
-    }//GEN-LAST:event_jbtPaymentDetActionPerformed
+    }                                             
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -284,7 +282,7 @@ public class Main extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -296,5 +294,5 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton jbtRedeemMenu;
     private javax.swing.JButton jbtStaffing;
     private javax.swing.JLabel jtfId;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
