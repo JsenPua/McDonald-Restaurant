@@ -15,7 +15,7 @@ public class Login extends JFrame {
     private JTextField jtfId = new JTextField();
     private JPasswordField jpfPassword = new JPasswordField();
     private JLabel jtlHeading = new JLabel("STAFF LOGIN");
-    private JLabel jtlHelp = new JLabel("<html><u>Help</u><html>");
+    private JLabel jtlHelp = new JLabel("<html><u>Click Here For Help</u><html>");
     private JPanel panelSN = new JPanel(new FlowLayout(FlowLayout.RIGHT));
     private JPanel panelC = new JPanel(new GridLayout(2, 2, 10, 10));
     private JPanel panelS = new JPanel(new FlowLayout(FlowLayout.RIGHT));
@@ -65,7 +65,7 @@ public class Login extends JFrame {
 
         jtlHelp.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Enter your staff ID \nEg User ID :1234\nEnter your password\nEg Password :****", "Help", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Your staff ID \nEg: User ID :11111\nPassword\nEg Password :****", "Click Here For Help", JOptionPane.INFORMATION_MESSAGE);
             }
         });
         jtbLogin.addActionListener(new SignInListener());
