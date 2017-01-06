@@ -65,7 +65,7 @@ public class Login extends JFrame {
 
         jtlHelp.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
-                JOptionPane.showMessageDialog(null, "Enter your staff ID \nEg User ID :1234\nEnter your current password\nEg Password :****", "Help", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Enter your staff ID \nEg User ID :1234\nEnter your password\nEg Password :****", "Help", JOptionPane.INFORMATION_MESSAGE);
             }
         });
         jtbLogin.addActionListener(new SignInListener());
