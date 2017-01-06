@@ -46,7 +46,7 @@ public class RedeemFrame extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -85,7 +85,6 @@ public class RedeemFrame extends javax.swing.JFrame {
         jtfMemPoint = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
         jtfStock = new javax.swing.JTextField();
-        jbtView = new javax.swing.JButton();
         jbtHomepage = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -96,6 +95,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         jLabel1.setText("REDEEM TOYS");
 
         jbtFrankie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/1.png"))); // NOI18N
+        jbtFrankie.setContentAreaFilled(false);
         jbtFrankie.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtFrankieActionPerformed(evt);
@@ -103,6 +103,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
 
         jbtDrac.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/3.png"))); // NOI18N
+        jbtDrac.setContentAreaFilled(false);
         jbtDrac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtDracActionPerformed(evt);
@@ -110,6 +111,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
 
         jbtMavis.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/4.png"))); // NOI18N
+        jbtMavis.setContentAreaFilled(false);
         jbtMavis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtMavisActionPerformed(evt);
@@ -117,6 +119,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
 
         jbtDennis.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/2.png"))); // NOI18N
+        jbtDennis.setContentAreaFilled(false);
         jbtDennis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtDennisActionPerformed(evt);
@@ -124,6 +127,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
 
         jbtMurray.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/5.png"))); // NOI18N
+        jbtMurray.setContentAreaFilled(false);
         jbtMurray.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtMurrayActionPerformed(evt);
@@ -131,6 +135,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
 
         jbtWayne.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/6.jpg"))); // NOI18N
+        jbtWayne.setContentAreaFilled(false);
         jbtWayne.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbtWayneActionPerformed(evt);
@@ -241,14 +246,6 @@ public class RedeemFrame extends javax.swing.JFrame {
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel19.setText("Item Stock :");
 
-        jbtView.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jbtView.setText("View Redeem Items");
-        jbtView.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbtViewActionPerformed(evt);
-            }
-        });
-
         jbtHomepage.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jbtHomepage.setText("Back To Homepage");
         jbtHomepage.addActionListener(new java.awt.event.ActionListener() {
@@ -303,10 +300,7 @@ public class RedeemFrame extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jbtRedeem)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(jbtView)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jbtClear))
+                                .addComponent(jbtClear)
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel3)
@@ -412,7 +406,6 @@ public class RedeemFrame extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jbtClear)
                             .addComponent(jbtRemove)
-                            .addComponent(jbtView)
                             .addComponent(jbtAdd))
                         .addGap(71, 71, 71))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -434,9 +427,9 @@ public class RedeemFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jbtFrankieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtFrankieActionPerformed
+    private void jbtFrankieActionPerformed(java.awt.event.ActionEvent evt) {                                           
 
         int option = JOptionPane.showConfirmDialog(null, "Select Frankenstein?", "Frankenstein", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
@@ -444,13 +437,13 @@ public class RedeemFrame extends javax.swing.JFrame {
             jtfName.setText("Frankenstein");
 
         }
-    }//GEN-LAST:event_jbtFrankieActionPerformed
+    }                                          
 
-    private void jbtClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtClearActionPerformed
+    private void jbtClearActionPerformed(java.awt.event.ActionEvent evt) {                                         
         clearFields();
-    }//GEN-LAST:event_jbtClearActionPerformed
+    }                                        
 
-    private void jbtRedeemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtRedeemActionPerformed
+    private void jbtRedeemActionPerformed(java.awt.event.ActionEvent evt) {                                          
         String ID = generateRandomString();
         int choice1;
 
@@ -488,9 +481,9 @@ public class RedeemFrame extends javax.swing.JFrame {
         } catch (NumberFormatException ex) {
             ex.printStackTrace();
         }
-    }//GEN-LAST:event_jbtRedeemActionPerformed
+    }                                         
 
-    private void jtfIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfIDActionPerformed
+    private void jtfIDActionPerformed(java.awt.event.ActionEvent evt) {                                      
 
         Member member = memControl.selectRecord(jtfID.getText());
         Toys toys = maintainRedItem.selectRecord2(jtfName.getText());
@@ -502,9 +495,9 @@ public class RedeemFrame extends javax.swing.JFrame {
             jbtRedeem.setEnabled(true);
         }
 
-    }//GEN-LAST:event_jtfIDActionPerformed
+    }                                     
 
-    private void jtfNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfNameActionPerformed
+    private void jtfNameActionPerformed(java.awt.event.ActionEvent evt) {                                        
         Toys toys = maintainRedItem.selectRecord2(jtfName.getText());
         if (toys == null) {
             JOptionPane.showMessageDialog(null, "This Toy does not exist");
@@ -519,76 +512,71 @@ public class RedeemFrame extends javax.swing.JFrame {
 
         }
 
-    }//GEN-LAST:event_jtfNameActionPerformed
+    }                                       
 
-    private void jbtAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtAddActionPerformed
+    private void jbtAddActionPerformed(java.awt.event.ActionEvent evt) {                                       
         dispose();
         new RedeemItemFrame().setVisible(true);
-    }//GEN-LAST:event_jbtAddActionPerformed
+    }                                      
 
-    private void jbtRemoveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtRemoveActionPerformed
+    private void jbtRemoveActionPerformed(java.awt.event.ActionEvent evt) {                                          
         dispose();
         new UpdateOrDeleteRedeem().setVisible(true);
-    }//GEN-LAST:event_jbtRemoveActionPerformed
+    }                                         
 
-    private void jbtDennisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtDennisActionPerformed
+    private void jbtDennisActionPerformed(java.awt.event.ActionEvent evt) {                                          
         int option = JOptionPane.showConfirmDialog(null, "Select Dennis?", "Dennis", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
 
             jtfName.setText("Dennis");
 
         }
-    }//GEN-LAST:event_jbtDennisActionPerformed
+    }                                         
 
-    private void jbtDracActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtDracActionPerformed
+    private void jbtDracActionPerformed(java.awt.event.ActionEvent evt) {                                        
         int option = JOptionPane.showConfirmDialog(null, "Select Drac?", "Drac", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
 
             jtfName.setText("Drac");
 
         }
-    }//GEN-LAST:event_jbtDracActionPerformed
+    }                                       
 
-    private void jbtMavisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtMavisActionPerformed
+    private void jbtMavisActionPerformed(java.awt.event.ActionEvent evt) {                                         
         int option = JOptionPane.showConfirmDialog(null, "Select Mavis?", "Mavis", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
 
             jtfName.setText("Mavis");
 
         }
-    }//GEN-LAST:event_jbtMavisActionPerformed
+    }                                        
 
-    private void jbtMurrayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtMurrayActionPerformed
+    private void jbtMurrayActionPerformed(java.awt.event.ActionEvent evt) {                                          
         int option = JOptionPane.showConfirmDialog(null, "Select Murray?", "Murray", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
 
             jtfName.setText("Murray");
 
         }
-    }//GEN-LAST:event_jbtMurrayActionPerformed
+    }                                         
 
-    private void jbtWayneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtWayneActionPerformed
+    private void jbtWayneActionPerformed(java.awt.event.ActionEvent evt) {                                         
         int option = JOptionPane.showConfirmDialog(null, "Select Wayne?", "Wayne", JOptionPane.YES_NO_OPTION);
         if (option == JOptionPane.YES_OPTION) {
 
             jtfName.setText("Wayne");
 
         }
-    }//GEN-LAST:event_jbtWayneActionPerformed
+    }                                        
 
-    private void jbtViewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtViewActionPerformed
-        dispose();
-        new RedeemItemTable().setVisible(true);
-    }//GEN-LAST:event_jbtViewActionPerformed
-
-    private void jtfCodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfCodeActionPerformed
+    private void jtfCodeActionPerformed(java.awt.event.ActionEvent evt) {                                        
         // TODO add your handling code here:
-    }//GEN-LAST:event_jtfCodeActionPerformed
+    }                                       
 
-    private void jbtHomepageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtHomepageActionPerformed
+    private void jbtHomepageActionPerformed(java.awt.event.ActionEvent evt) {                                            
         dispose();
         new Main().setVisible(true);
-    }//GEN-LAST:event_jbtHomepageActionPerformed
+    }                                           
 
     public void clearFields() {
         jtfID.setText("");
@@ -663,7 +651,7 @@ public class RedeemFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -693,7 +681,6 @@ public class RedeemFrame extends javax.swing.JFrame {
     private javax.swing.JButton jbtMurray;
     private javax.swing.JButton jbtRedeem;
     private javax.swing.JButton jbtRemove;
-    private javax.swing.JButton jbtView;
     private javax.swing.JButton jbtWayne;
     private javax.swing.JLabel jlbID;
     private javax.swing.JTextField jtfCode;
@@ -702,5 +689,5 @@ public class RedeemFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jtfName;
     private javax.swing.JTextField jtfPoints;
     private javax.swing.JTextField jtfStock;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
