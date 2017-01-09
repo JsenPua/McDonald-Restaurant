@@ -71,7 +71,7 @@ public class Login extends JFrame {
         jtbLogin.addActionListener(new SignInListener());
         
         setTitle("LOGIN");
-        setSize(400, 200);
+        setSize(400, 250);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
