@@ -218,7 +218,6 @@ public class Main extends javax.swing.JFrame {
 
     private void jbtStaffingActionPerformed(java.awt.event.ActionEvent evt) {                                            
         try {
-            // TODO add your handling code here:
             dispose();
             Staff staff = new Staff(stf);
             new MaintainStaff(staff).setVisible(true);
