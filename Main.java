@@ -18,12 +18,6 @@ public class Main extends javax.swing.JFrame {
 
         initComponents();
 
-//        if (staff.getId().charAt(0) == 'S') {
-//            jbtStaffing.setEnabled(false);
-//        } else {
-//            jbtStaffing.setEnabled(true);
-//        }
-
         setTitle("Main");
         setSize(660, 655);
         setVisible(true);
